@@ -1,0 +1,43 @@
+.nav-enlace{
+  display: inline-block;
+  background: #FF8B8B;
+  color: #ffff;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.nav-enlace:hover{
+  background: #EB4747;
+}
+
+nav{
+  background: #FFE7BF;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-boton{
+  background: #FF8B8B;
+  color: #ffff;
+  padding: 10px 0px;
+  border: none;
+  display: none;
+}
+
+@media (max-width: 600px) {
+  nav{
+    flex-direction: column;
+  }
+
+  .nav-enlace{
+    margin: 10px 0px;
+  }
+
+  .nav-boton{
+    display: inline-block;
+  }
+  .desaparece{
+    display: none;
+  }
+}
